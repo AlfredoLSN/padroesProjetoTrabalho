@@ -15,10 +15,10 @@ public class Siger {
     public int getMaxReservation(){
         return maxReservation;
     }
-    void setVersion(String version){
+    public void setVersion(String version){
         this.version = version;
     }
-    void setMaxReservation(int maxReservation){
+    public void setMaxReservation(int maxReservation){
         this.maxReservation = maxReservation;
     }
 }

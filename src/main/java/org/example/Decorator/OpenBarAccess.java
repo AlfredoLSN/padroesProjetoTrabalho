@@ -2,14 +2,14 @@ package org.example.Decorator;
 
 import org.example.Flyweight.Ticket;
 
-public class VIPAccess extends TicketDecorator{
+public class OpenBarAccess extends TicketDecorator{
 
-    public VIPAccess(Ticket ticket) {
+    public OpenBarAccess(Ticket ticket) {
         super(ticket);
     }
 
     @Override
     public String getTypeName() {
-        return "VIP";
+        return "OpenBar";
     }
 }
